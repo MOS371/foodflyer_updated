@@ -1,0 +1,31 @@
+{
+  "name": "angular2-laravel5",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "watch": "gulp"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "es6-shim": "^0.35.0",
+    "es6-promise": "^3.0.2",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "concurrently": "^2.0.0",
+    "elixir-typescript": "2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.4",
+    "lite-server": "^2.2.2"
+  }
+}
